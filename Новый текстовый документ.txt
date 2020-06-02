@@ -1,0 +1,17 @@
+$(SolutionDir)..\edk2\Build\EmulatorX64\DEBUG_VS2019\X64\WinHost
+
+$(SolutionDir)..\edk2\Build\EmulatorX64\DEBUG_VS2019\X64
+
+$(SolutionDir)..\edk2\MdePkg\Include;$(SolutionDir)..\edk2\BaseTools\Source\C\Include\X64;$(SolutionDir)..\edk2\BaseTools\Source\C\Include\Common;$(SolutionDir)..\edk2\BaseTools\Source\C\Include\Guid;$(SolutionDir)..\edk2\BaseTools\Source\C\Include\IndustryStandard;$(SolutionDir)..\edk2\BaseTools\Source\C\Include\Protocol
+
+C:\Pulsar\edk2\MdePkg\Include;$(NMakeIncludeSearchPath)
+
+call ..\..\edk2\edksetup.bat VS2019
+build
+
+call ..\..\edk2\edksetup.bat VS2019
+build clean
+build
+
+call  ..\..\edk2\edksetup.bat VS2019
+build clean

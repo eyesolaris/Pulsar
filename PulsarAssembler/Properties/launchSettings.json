@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "PulsarAssembler": {
+      "commandName": "Project",
+      "commandLineArgs": "text.asm image.bin",
+      "workingDirectory": "$(ProjectDir)"
+    }
+  }
+}
